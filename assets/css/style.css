@@ -1,0 +1,114 @@
+body {
+  background-color: rgba(4, 4, 25, 0.909);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+.container {
+  width: 800px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.image {
+  background-image: url("https://freedesignfile.com/upload/2018/12/dark-world-map-design-vector-41701.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 200px;
+  position: relative;
+  opacity: 0.5;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main p {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+}
+
+.element {
+  background-color: rgba(0, 0, 0, 0.317);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 33px;
+}
+
+.dropdown p {
+  color: white;
+  border-right: 2px solid rgba(103, 100, 100, 0.368);
+  padding: 12px;
+  height: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_menu {
+  color: white;
+  display: flex;
+  gap: 30px;
+}
+
+.menu p::before {
+  content: " *";
+  padding-right: 4px;
+}
+
+.menu p {
+  border-bottom: 2px solid rgba(103, 100, 100, 0.368);
+  width: 120px;
+}
+
+.menu,
+.content_blog {
+  border: 1px solid rgba(103, 100, 100, 0.368);
+  border-right: none;
+  width: 200px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery_div h3 {
+  border-bottom: 2px solid rgba(103, 100, 100, 0.368);
+  padding-bottom: 20px;
+}
+
+.blog {
+  color: white;
+}
+
+.second {
+  display: flex;
+  gap: 30px;
+  border-bottom: 2px solid rgba(103, 100, 100, 0.368);
+  padding: 20px;
+}
+
+.read_more_button {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.548);
+}
+
+.text {
+  border-right: 2px solid rgba(103, 100, 100, 0.368);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
